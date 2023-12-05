@@ -14,23 +14,14 @@ npm install
 
 ## Usage
 
-Create a file called `address.txt` with the address of the account you want to be the recipient of the transaction.
-Example:
+Copy the `config.example.json` file to `config.json` and fill in the values.
 
-```txt
-5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```bash
+cp config.example.json config.json
 ```
 
-Create a file called `seeds.txt` with the seed phrases of the accounts you want to use to send the transaction.
-Example:
-
-```txt
-seed phrase 1
-seed phrase 2
-seed phrase 3
-```
+- token - The token get from Discord cookie (string)
+- seeds - The seeds to use for the transactions (list of strings)
 
 Then run:
 
